@@ -36,7 +36,7 @@ function IndexPage() {
       if (err) {
         setMsg({
           color: 'text-red-500',
-          text: 'Unable to add to waitlist. Please try again'
+          text: 'Unable to add to mailing list. Please try again...'
         })
         return;
       }
@@ -45,7 +45,7 @@ function IndexPage() {
         setEmail('')
         setMsg({
           color: 'text-green-500',
-          text: 'Successfully added to waitlist'
+          text: 'Successfully added to mailing list!'
         })
       }
     })
