@@ -4,7 +4,7 @@ import keys from "../../secrets"
 const airtable = require('airtable')
 
 const data = {
-  'ytLink': 'https://www.youtube.com/watch?v=10THkZ3SDm0'
+  'ytLink': 'https://youtu.be/fvadj6uup_4'
 }
 
 function formatDate(d) {
